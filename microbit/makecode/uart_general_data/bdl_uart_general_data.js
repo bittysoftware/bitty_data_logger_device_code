@@ -29,19 +29,19 @@ function transmitData() {
 basic.forever(function () {
     if (connected == 1) {
         message_type = 1
-        # random numbers used solely for demonstration purposes. Acquire your data here as required.
+        // random numbers used solely for demonstration purposes. Acquire your data here as required.
         value1 = Math.randomRange(0, 1023)
         transmitData()
         message_type = 2
-        # random numbers used solely for demonstration purposes. Acquire your data here as required.
+        // random numbers used solely for demonstration purposes. Acquire your data here as required.
         value1 = Math.randomRange(0, 1023)
         transmitData()
         message_type = 3
-        # random numbers used solely for demonstration purposes. Acquire your data here as required.
+        // random numbers used solely for demonstration purposes. Acquire your data here as required.
         value1 = Math.randomRange(0, 1023)
         transmitData()
         message_type = 4
-        # random numbers used solely for demonstration purposes. Acquire your data here as required.
+        // random numbers used solely for demonstration purposes. Acquire your data here as required.
         value1 = Math.randomRange(0, 1023)
         transmitData()
     }
