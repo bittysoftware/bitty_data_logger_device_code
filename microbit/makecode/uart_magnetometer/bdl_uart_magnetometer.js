@@ -13,6 +13,8 @@ let value1 = 0
 let value2 = 0
 let value3 = 0
 let value4 = 0
+// message type 11 = magnetometer data
+message_type = 11
 
 bluetooth.startUartService()
 
@@ -29,8 +31,6 @@ function transmitData() {
 }
 basic.forever(function () {
     if (connected == 1) {
-        // message type 11 = magnetometer data
-        message_type = 11
         value1 = input.magneticForce(Dimension.X)
         value2 = input.magneticForce(Dimension.Y)
         value3 = input.magneticForce(Dimension.Z)
