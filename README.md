@@ -23,7 +23,7 @@ In User Code mode, you are responsible for acquiring data from within your own c
 ### Message Types:
 
 ```
-    1,2,3,4 : general data items 1, 2, 3 and 4 : composite 24 bit value in BE format
+    1,2,3,4 : general data items 1, 2, 3 and 4 : value1 = an arbitrary 16-bit value in BE format (only the value1 field is used with these message types)
 
     10    : accelerometer: value1 = X, value2 = Y, value3 = Z
 
