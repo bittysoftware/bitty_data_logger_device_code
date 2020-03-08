@@ -11,3 +11,4 @@ Select User Code in the Data Capture Mode section of the Bitty Data Logger Setti
 
 To build this code, you need an offline microbit development environment, based on Yotta. See https://lancaster-university.github.io/microbit-docs/offline-toolchains/ for details.
 
+Copy main.cpp into the source directory of microbit-samples and config.json into the root directory.
